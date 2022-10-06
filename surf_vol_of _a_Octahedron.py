@@ -29,7 +29,7 @@ def main():
         print("Thank you for playing!")
     elif user_choice == 2:
         volume = ((math.sqrt(2)) / 3) * (user_input**3)
-        print("The volume is= {:.2f} {}^2".format(volume, user_unit))
+        print("The volume is= {:.2f} {}^3".format(volume, user_unit))
         print("Thank you for playing!")
     elif user_choice == 3:
         area = 2 * math.sqrt(3) * (user_input**2)
